@@ -1,0 +1,6 @@
+distance = int(301.2313)
+distance_q = int(distance / 1000)
+distance_b = int(distance % 1000 / 100)
+distance_s = int(distance % 100 / 10)
+distance_g = int(distance % 10)
+print(distance_q, distance_b, distance_s, distance_g)
